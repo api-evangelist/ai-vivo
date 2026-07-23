@@ -1,7 +1,30 @@
 aid: ai-vivo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ai-vivo.png
 name: Ai Vivo
-description: Ai Vivo is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  AI VIVO (AIVIVO LTD) is a Cambridge, England based drug-discovery company that
+  combines systems pharmacology with artificial intelligence to accelerate the
+  identification and de-risking of therapeutic candidates. Its "Organome"
+  platform simulates biological processes at the target, cell, organ, and
+  organism levels and ranks drug candidates by their phenotypic effects at the
+  tissue level, without relying on prior knowledge of the disease or compounds.
+  The approach gained recognition in 2020 when the platform ranked roughly
+  90,000 compounds for COVID-19 and surfaced dexamethasone as a top candidate
+  weeks before its clinical benefit was widely reported. AI VIVO is backed by
+  DCVC and other life-science and applied-AI investors. As of this profile the
+  company publishes a minimal public web presence (a home and contact page) and
+  exposes no public developer API, documentation, or SDK.
 url: https://raw.githubusercontent.com/api-evangelist/ai-vivo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +37,27 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Artificial Intelligence
+- Drug Discovery
+- Systems Pharmacology
+- Biotechnology
+- Pharmaceuticals
+- Life Sciences
+- Machine Learning
+- Healthcare
 apis: []
+common:
+- type: Website
+  url: https://aivivo.co/
+- type: Contact
+  url: https://aivivo.co/contactus/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
